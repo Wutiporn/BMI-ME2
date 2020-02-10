@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val show = findViewById<TextView>(R.id.heading)
         val heightInput = findViewById<EditText>(R.id.inputHeight)
         val weightInput = findViewById<EditText>(R.id.inputWeight)

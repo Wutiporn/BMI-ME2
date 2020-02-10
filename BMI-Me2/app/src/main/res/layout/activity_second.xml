@@ -3,6 +3,13 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="X"
+        android:layout_gravity="right"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,5 +48,6 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/button1"
         android:textColor="#fff"/>
+
 
 </LinearLayout>

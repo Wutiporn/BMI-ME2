@@ -17,8 +17,13 @@ class SecondActivity : AppCompatActivity() {
         var yourBmi = findViewById<TextView>(R.id.yourBmi)
         var health = findViewById<TextView>(R.id.health)
         var heightWeight = findViewById<TextView>(R.id.heightWeight)
+        var btnClose = findViewById<TextView>(R.id.btnClose)
         var heightformcm: Double = 0.0
         var result: Double = 0.0
+
+        btnClose.setOnClickListener {
+            finish()
+        }
 
         heightformcm = height / 100
         result = weight / (heightformcm * heightformcm)
